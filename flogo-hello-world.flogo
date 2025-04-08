@@ -19,7 +19,7 @@
       "name": "tibco-wi-rest",
       "description": "Simple REST Trigger",
       "settings": {
-        "port": 9999,
+        "port": 8080,
         "APISpecUpdate": false,
         "swagger": "",
         "swaggerVersion": "v2",
@@ -209,7 +209,7 @@
     "endpoints": [
       {
         "protocol": "http",
-        "port": "9999",
+        "port": "8080",
         "spec": {
           "name": "flogo-hello-world",
           "version": "1.0.0"
